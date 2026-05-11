@@ -52,7 +52,7 @@ function Register() {
 
     try {
       setLoading(true);
-      await axios.post("http://localhost:5000/api/auth/register", form);
+      await axios.post("http://https://sporto-track.onrender.com/api/auth/register", form);
       alert("Registered Successfully ✅");
       navigate("/");
     } catch (error) {
