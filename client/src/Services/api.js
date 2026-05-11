@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://https://sporto-track.onrender.com/api",
+  baseURL: "https://sporto-track.onrender.com/api",
 });
 
 // ================= TOKEN =================

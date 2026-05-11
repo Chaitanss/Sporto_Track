@@ -30,7 +30,7 @@ function SharedProfile() {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.put(
-        "http://https://sporto-track.onrender.com/api/auth/update-profile",
+        "https://sporto-track.onrender.com/api/auth/update-profile",
         { name: form.name, email: form.email, phone: form.phone },
         { headers: { Authorization: `Bearer ${token}` } }
       );

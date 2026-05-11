@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-export const socket = io("http://https://sporto-track.onrender.com", {
+export const socket = io("https://sporto-track.onrender.com", {
   transports: ["websocket"],
   autoConnect: true,
 });
